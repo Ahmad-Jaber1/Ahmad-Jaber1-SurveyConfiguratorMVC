@@ -1,0 +1,64 @@
+﻿@using SurveyWeb.Resources;
+@model SurveyConfiguratorTaskWeb.Models.BasicQuestionViewModel
+
+@{
+    ViewBag.Title = "Add";
+    const string QUESTION_TEXT = "Text";
+    const string QUESTION_ORDER = "Order";
+    const string QUESTION_TYPE = "Type of Question";
+    const string NEXT = "Next";
+    const string BACK = "Back to List";
+}
+
+<h2>@Resources.ADD_QUESTION_TITLE</h2>
+
+
+@using (Html.BeginForm("AddBasicQuestoinInfo", "Home") )
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+<div class="form-group">
+    @Html.LabelFor(model => model.Text, htmlAttributes: new { @class = "control-label col-md-2" })
+
+    <div class="col-md-10">
+        @Html.EditorFor(model => model.Text, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Text, "", new { @class = "text-danger" })
+    </div>
+</div>
+
+    <div class="form-group">
+
+        @Html.LabelFor(model => model.Order, htmlAttributes: new { @class = "control-label col-md-2" })
+
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Order, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Order, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        
+
+        @Html.LabelFor(model => model.QuestionType, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(model => model.QuestionType, new { htmlAttributes = new { @class = "form-select" } })
+            @Html.ValidationMessageFor(model => model.QuestionType, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    
+    <div class="form-group" style="margin-top:20px; display:flex; gap:10px;">
+        @Html.ActionLink(@Resources.BACK, "Index", null,
+    new { @class = "btn btn-danger" })
+
+        
+        <button type="submit" class="btn btn-info">@Resources.NEXT</button>
+    </div>
+</div>
+}
+
+
+

@@ -1,0 +1,74 @@
+﻿@model SurveyConfiguratorTask.Models.Question
+@using SurveyWeb.Resources
+@{
+    ViewBag.Title = "Delete";
+    Layout = null;
+    const string DELETE_CONFIRM_TITLE= "Confirm Delete";
+    const string DELETE_CONFIRM_MESSAGE= "Are you sure you want to delete this question?";
+    const string CANCEL = "Cancel";
+    const string OK = "Yes, Delete";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-box {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            width: 450px;
+            margin: 150px auto;
+        }
+    </style>
+</head>
+<body dir="@Resources.direction">
+
+    <div class="modal-box text-center">
+
+        <h4>@Resources.DELETE_CONFIRM_TITLE</h4>
+
+        <p>@Resources.DELETE_CONFIRM_MESSAGE</p>
+
+        <hr />
+
+        <div >
+            <strong>@Resources.QUESTION_TEXT :</strong>
+            @Html.DisplayFor(model => model.Text )
+
+            <br />
+
+            <strong>@Resources.QUESTION_ORDER :</strong>
+            @Html.DisplayFor(model => model.Order)
+        </div>
+
+        <br />
+
+        @using (Html.BeginForm("Delete", "Home",routeValues: new { @Model.Id }))
+        {
+            @Html.AntiForgeryToken()
+
+            @*@Html.HiddenFor(model => model.Id)*@
+
+            <button type="submit" class="btn btn-danger">
+                @Resources.OK
+            </button>
+
+            @Html.ActionLink(@Resources.CANCEL,
+                             "Index",
+                             null,
+                             new { @class = "btn btn-secondary ml-2" })
+        }
+
+    </div>
+
+</body>
+</html>

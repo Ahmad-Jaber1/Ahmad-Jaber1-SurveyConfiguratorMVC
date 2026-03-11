@@ -1,0 +1,38 @@
+﻿@model string
+@using Localization
+@using SurveyWeb.Resources
+@{
+    ViewBag.Title = "Error";
+    const string WRONG = "Something went wrong";
+}
+
+<div style="display:flex;justify-content:center;align-items:center;height:80vh;font-family:Arial">
+
+    <div style="width:500px;padding:30px;border-radius:10px;background:#fff;
+                box-shadow:0 4px 15px rgba(0,0,0,0.15);text-align:center">
+
+        <div style="font-size:60px;color:#dc3545">
+            ⚠
+        </div>
+
+        <h2 style="color:#dc3545;margin-bottom:10px">
+            @Resources.WRONG
+        </h2>
+
+        <p style="color:#555;margin-bottom:20px">
+            @Localization.ErrorLocalizer.GetMessage(Model)
+        </p>
+
+        
+
+        <a href="@Url.Action("Index","Home")"
+           style="display:inline-block;margin-top:20px;padding:10px 20px;
+                  background:#007bff;color:#fff;border-radius:5px;text-decoration:none">
+            
+            
+            @Resources.BACK
+        </a>
+
+    </div>
+
+</div>

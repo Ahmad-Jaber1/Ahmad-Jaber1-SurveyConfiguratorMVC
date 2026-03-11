@@ -1,0 +1,75 @@
+﻿@using SurveyWeb.Resources;
+@using SurveyConfiguratorTask.Models;
+@model Shared.Result<List<SurveyConfiguratorTask.Models.Question>>
+@{
+
+    ViewBag.Title = "Home Page";
+    const string QUESTION_TYPE = "Question Type";
+    const string QUESTION_TEXT = "Question Text";
+    const string QUESTION_ORDER = "Question Order";
+    const string ACTIONS = "Actions";
+    const string EDIT_BUTTON = "Edit";
+    const string EDIT_ACTION = "Edit";
+
+    const string DELETE_BUTTON = "Delete";
+    const string DELETE_ACTION = "ConfirmDeletion";
+
+    const string ADD_BUTTON = "Add";
+
+}
+
+
+<div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">@Resources.QUESTIONS</h5>
+        @Html.ActionLink(Resources.ADD_BUTTON, "Add", new { }, htmlAttributes: new { @class = "btn btn-info" })
+
+    </div>
+
+    <div class="card-body">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>@Resources.QUESTION_TEXT</th>
+                    <th>@Resources.QUESTION_ORDER</th>
+                    <th>@Resources.QUESTION_TYPE</th>
+                    <th>@Resources.ACTIONS</th>
+
+                </tr>
+
+            </thead>
+
+            @foreach (Question question in Model.Data)
+            {
+                <tr>
+                    <td>@question.Text</td>
+                    <td>@question.Order</td>
+                    <td>
+                        @switch(question.TypeQuestion)
+                            {
+                                case SurveyConfiguratorTask.Models.TypeQuestionEnum.SliderQuestion:
+                                    @Resources.SLIDER_QUESTION
+                                    break;
+                                case SurveyConfiguratorTask.Models.TypeQuestionEnum.SmileyFacesQuestion:
+                                    @Resources.SMILEY_QUESTION
+                                    break;
+                                case SurveyConfiguratorTask.Models.TypeQuestionEnum.StarsQuestion:
+                                    @Resources.STARS_QUESTION
+                                break; 
+                            }
+
+
+
+                    </td>
+                    <td>
+                        @Html.ActionLink(Resources.EDIT_BUTTON, EDIT_ACTION, new { question.Id }, new { @class = "btn btn-info" })
+
+                        @Html.ActionLink(Resources.DELETE_BUTTON, DELETE_ACTION, new { question.Id }, new { @class = "btn btn-danger" })
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+

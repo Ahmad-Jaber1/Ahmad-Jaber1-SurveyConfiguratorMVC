@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="../Dlls/Localization/Localization.csproj" />
+  <Project Path="../Dlls/Logging/Logging.csproj" />
+  <Project Path="../Dlls/Models/Models.csproj" />
+  <Project Path="../Dlls/Repository/Repository.csproj" />
+  <Project Path="../Dlls/Services/Services.csproj" />
+  <Project Path="../Dlls/Shared/Shared.csproj" />
+  <Project Path="SurveyWeb/SurveyWeb.csproj" Id="139fade6-5a48-4584-8ceb-80ef88204235" />
+</Solution>

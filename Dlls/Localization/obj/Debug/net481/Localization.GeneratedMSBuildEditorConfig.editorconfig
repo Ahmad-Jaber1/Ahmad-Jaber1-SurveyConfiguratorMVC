@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Localization
+build_property.ProjectDir = D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Localization\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

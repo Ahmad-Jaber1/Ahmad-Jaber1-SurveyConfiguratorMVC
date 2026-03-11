@@ -1,0 +1,823 @@
+2026-03-10 22:24:46.086 | Error | 
+Message    : there is no error happen , not warring
+Exception  :
+
+============================================================
+2026-03-11 11:09:49.528 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:09:49.529 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:09:49.527 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:09:49.529 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:09:49.527 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:10:21.010 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:11:07.208 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:13:39.726 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:18:12.605 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:18:12.611 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   عند System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   عند Services.QuestionService.CheckForUpdates() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:السطر 629
+
+============================================================
+2026-03-11 11:38:27.685 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:38:27.685 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   عند System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   عند Services.QuestionService.CheckForUpdates() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:السطر 629
+
+============================================================
+2026-03-11 11:38:27.685 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   عند System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   عند Services.QuestionService.CheckForUpdates() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:السطر 629
+
+============================================================
+2026-03-11 11:38:27.685 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 629
+
+============================================================
+2026-03-11 11:38:27.685 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   عند System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   عند Services.QuestionService.CheckForUpdates() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:السطر 629
+
+============================================================
+2026-03-11 11:38:27.685 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   عند System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   عند Services.QuestionService.CheckForUpdates() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:السطر 629
+
+============================================================
+2026-03-11 11:38:50.939 | Error | 
+Message    : Unexpected error occurred while loading questions in Index action.
+Exception  :
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SurveyConfiguratorTaskWeb.Controllers.HomeController.Index() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\Controllers\HomeController.cs:line 31
+
+============================================================
+2026-03-11 11:41:15.418 | Error | 
+Message    : Unexpected error occurred while loading questions in Index action.
+Exception  :
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SurveyConfiguratorTaskWeb.Controllers.HomeController.Index() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\Controllers\HomeController.cs:line 31
+
+============================================================
+2026-03-11 11:49:02.007 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates()
+
+============================================================
+2026-03-11 11:49:02.007 | Error | 
+Message    : Unexpected error occurred while Check updates
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Services.QuestionService.CheckForUpdates()
+
+============================================================
+2026-03-11 11:49:20.529 | Error | 
+Message    : Unexpected error occurred while loading questions in Index action.
+Exception  :
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SurveyConfiguratorTaskWeb.Controllers.HomeController.Index() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\Controllers\HomeController.cs:line 32
+
+============================================================
+2026-03-11 11:49:33.563 | Error | 
+Message    : Unexpected error occurred while loading questions in Index action.
+Exception  :
+System.Exception: تم طرح استثناء من النوع 'System.Exception'.
+   عند SurveyConfiguratorTaskWeb.Controllers.HomeController.Index() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\Controllers\HomeController.cs:السطر 32
+
+============================================================
+2026-03-11 11:49:37.388 | Error | 
+Message    : Unexpected error occurred while loading questions in Index action.
+Exception  :
+System.Exception: تم طرح استثناء من النوع 'System.Exception'.
+   عند SurveyConfiguratorTaskWeb.Controllers.HomeController.Index() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\Controllers\HomeController.cs:السطر 32
+
+============================================================
+2026-03-11 11:49:38.209 | Error | 
+Message    : Unexpected error occurred while loading questions in Index action.
+Exception  :
+System.Exception: تم طرح استثناء من النوع 'System.Exception'.
+   عند SurveyConfiguratorTaskWeb.Controllers.HomeController.Index() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\Controllers\HomeController.cs:السطر 32
+
+============================================================
+2026-03-11 11:49:38.632 | Error | 
+Message    : Unexpected error occurred while loading questions in Index action.
+Exception  :
+System.Exception: تم طرح استثناء من النوع 'System.Exception'.
+   عند SurveyConfiguratorTaskWeb.Controllers.HomeController.Index() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\Controllers\HomeController.cs:السطر 32
+
+============================================================
+2026-03-11 13:38:33.169 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 13:39:47.793 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 13:40:47.262 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 13:41:31.151 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 13:41:37.358 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 14:17:49.654 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 14:17:49.780 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 14:21:05.191 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 14:21:05.296 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 14:22:36.477 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 14:22:40.454 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 14:24:28.791 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 14:24:28.986 | Error | 
+Message    : Unexpected error occurred while retrieving question count.
+Exception  :
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetCount() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 679
+
+============================================================
+2026-03-11 20:03:18.937 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   عند Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   عند Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   عند Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   عند Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   عند Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   عند Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, DbConnectionPoolGroupProviderInfo providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   عند Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:18.937 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:18.937 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:18.937 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:21.989 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:21.989 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:21.989 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:21.989 | Error | 
+Message    : SQL error occurred while retrieving Last Modified .
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 853
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:03:36.747 | Error | 
+Message    : Error occurred while retrieving the last modified .
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 834
+   عند Services.QuestionService.GetLastModified()
+
+============================================================
+2026-03-11 20:03:36.748 | Error | 
+Message    : Error occurred while retrieving the last modified .
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 834
+   عند Services.QuestionService.GetLastModified()
+
+============================================================
+2026-03-11 20:03:36.751 | Error | 
+Message    : Error occurred while retrieving the last modified .
+Exception  :
+System.Threading.ThreadAbortException: تم إجهاض مسار التنفيذ.
+   عند SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:السطر 834
+   عند Services.QuestionService.GetLastModified()
+
+============================================================
+2026-03-11 20:03:36.749 | Error | 
+Message    : Error occurred while retrieving the last modified .
+Exception  :
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at SurveyConfiguratorTask.Repo.QuestionRepo.GetLastModified() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\QuestionRepo.cs:line 834
+   at Services.QuestionService.GetLastModified()
+
+============================================================
+2026-03-11 20:04:04.002 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, DbConnectionPoolGroupProviderInfo providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:04:04.082 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:04.154 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:48.501 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, DbConnectionPoolGroupProviderInfo providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:04:48.501 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:48.503 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:48.704 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:السطر 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:04:48.705 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:48.705 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:55.581 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   عند Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   عند Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   عند Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   عند Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) في D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:السطر 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:04:55.582 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:55.582 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:56.966 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:04:56.966 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:56.967 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:58.140 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:04:58.140 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:58.140 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:58.357 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:04:58.357 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:04:58.358 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:05:16.327 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, DbConnectionPoolGroupProviderInfo providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:05:16.327 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:05:16.328 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:05:16.670 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+============================================================
+2026-03-11 20:05:16.670 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 20:05:16.670 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 22:03:18.739 | Error | 
+Message    : Failed to set connection string.
+Exception  :
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "SurveyConfiguratorDatabase" requested by the login. The login failed.
+Login failed for user 'SEDCO\Ahmad.j'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover, Boolean isFirstTransparentAttempt, Boolean disableTnir)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, DbConnectionPoolGroupProviderInfo providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Repository.SqlConnectionTest.TestConnection(String pConnectionString, Exception& pExceptionError) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Repository\SqlConnectionTest.cs:line 15
+ClientConnectionId:908466cd-4f42-4128-9d6c-18d67269027c
+Error Number:4060,State:1,Class:11
+
+============================================================
+2026-03-11 22:03:18.859 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================
+2026-03-11 22:03:18.938 | Error | 
+Message    : Attempted to load questions but the database connection string is not set. 
+Exception  :
+
+============================================================

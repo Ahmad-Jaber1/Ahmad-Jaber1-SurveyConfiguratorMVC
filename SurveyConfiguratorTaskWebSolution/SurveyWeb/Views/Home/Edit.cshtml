@@ -1,0 +1,12 @@
+﻿@model SurveyConfiguratorTask.Models.Question
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@if (Model.TypeQuestion == SurveyConfiguratorTask.Models.TypeQuestionEnum.SliderQuestion)
+{
+    var question = (SurveyConfiguratorTask.Models.SliderQuestion)Model;
+<h3>@question.StartValue</h3>
+}

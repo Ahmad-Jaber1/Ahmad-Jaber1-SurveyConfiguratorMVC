@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="COLUMN_ORDER" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="COLUMN_QUESTION_TYPE" xml:space="preserve">
+    <value>Question Type</value>
+  </data>
+  <data name="COLUMN_TEXT" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="CONFIRM_DELETE_MESSAGE" xml:space="preserve">
+    <value>Are you sure you want to delete the selected question?</value>
+  </data>
+  <data name="CONFIRM_DELETE_TITLE" xml:space="preserve">
+    <value>Confirm Delete</value>
+  </data>
+  <data name="ConnectionStringInvalid" xml:space="preserve">
+    <value>Cannot connect to the database. Please check your server name, database name, username, and password.</value>
+  </data>
+  <data name="ConnectionStringNotSet" xml:space="preserve">
+    <value>Database connection string is not set or invalid. Go to Settings → Database Connection to set it up.</value>
+  </data>
+  <data name="DatabaseConnectionFailed" xml:space="preserve">
+    <value>Failed to connect to the database. Contact the administrator to resolve the issue.</value>
+  </data>
+  <data name="DatabaseUnavailable" xml:space="preserve">
+    <value>The database could not be reached. It may be offline, deleted, or temporarily unavailable.  Please verify the database server and try again.</value>
+  </data>
+  <data name="ERROR_CAPTION_TEXT_EMPTY" xml:space="preserve">
+    <value>Please enter a valid caption. The caption text cannot be empty or longer than 30 characters .</value>
+  </data>
+  <data name="ERROR_END_VALUE_OUT_OF_RANGE" xml:space="preserve">
+    <value>Please enter a valid end value. It must be between {0} and {1} </value>
+  </data>
+  <data name="ERROR_ORDER_VALUE_OUT_OF_RANGE" xml:space="preserve">
+    <value>Please enter a valid order value. The value must be non negative number .</value>
+  </data>
+  <data name="ERROR_QUESTION_TEXT_EMPTY" xml:space="preserve">
+    <value>Please enter a valid question. The question text cannot be empty or longer than 60 characters.</value>
+  </data>
+  <data name="ERROR_SMILEY_COUNT_INVALID" xml:space="preserve">
+    <value>Please enter a valid smiley count. The value must be between 2 and 5.</value>
+  </data>
+  <data name="ERROR_STARS_COUNT_INVALID" xml:space="preserve">
+    <value>Please enter a valid stars count. The value must be between 1 and 10.</value>
+  </data>
+  <data name="ERROR_START_VALUE_OUT_OF_RANGE" xml:space="preserve">
+    <value>Please enter a valid start value. It must be between 0 and {0}</value>
+  </data>
+  <data name="NotFound_DeleteQuestion" xml:space="preserve">
+    <value>Question not found.</value>
+  </data>
+  <data name="NotFound_EditQuestion" xml:space="preserve">
+    <value>The specified question was not found. Please check your selection.</value>
+  </data>
+  <data name="NotFound_GetQuestion" xml:space="preserve">
+    <value>The specified question was not found. Please check your selection.</value>
+  </data>
+  <data name="QUESTION_TYPE_SLIDER" xml:space="preserve">
+    <value>Slider Question</value>
+  </data>
+  <data name="QUESTION_TYPE_SMILEY" xml:space="preserve">
+    <value>Smiley Question</value>
+  </data>
+  <data name="QUESTION_TYPE_STARS" xml:space="preserve">
+    <value>Stars Question</value>
+  </data>
+  <data name="SqlErrorAddQuestion" xml:space="preserve">
+    <value>We couldn't save your question at the moment. Please try again later.</value>
+  </data>
+  <data name="SqlErrorDeleteQuestion" xml:space="preserve">
+    <value>We couldn't delete your question at the moment. Please try again later.</value>
+  </data>
+  <data name="SqlErrorEditOrder" xml:space="preserve">
+    <value>We couldn't update order at the moment. Please try again later.</value>
+  </data>
+  <data name="SqlErrorEditQuestion" xml:space="preserve">
+    <value>We couldn't update your question at the moment. Please try again later.</value>
+  </data>
+  <data name="SqlErrorGetCount" xml:space="preserve">
+    <value>We couldn't retrieve the question count at the moment. Please try again later.</value>
+  </data>
+  <data name="SqlErrorGetLastModified" xml:space="preserve">
+    <value>We couldn't retrieve Last Modified. Please try again later.</value>
+  </data>
+  <data name="SqlErrorGetQuestion" xml:space="preserve">
+    <value>We couldn't retrieve the question. Please try again later.</value>
+  </data>
+  <data name="SqlErrorSliderLoad" xml:space="preserve">
+    <value>SQL error occurred while loading slider questions. Please contact support.</value>
+  </data>
+  <data name="SqlErrorSmileyLoad" xml:space="preserve">
+    <value>SQL error occurred while loading smiley questions. Please contact support.</value>
+  </data>
+  <data name="SqlErrorStarsLoad" xml:space="preserve">
+    <value>SQL error occurred while loading star questions. Please contact support.</value>
+  </data>
+  <data name="SqlErrorUpdateLastModified" xml:space="preserve">
+    <value>We couldn't update Last Modified. Please try again later.</value>
+  </data>
+  <data name="UI_ERROR_MESSAGE" xml:space="preserve">
+    <value>An unexpected error occurred. Please contact support or the system administrator.</value>
+  </data>
+  <data name="UnknownErrorAddQuestion" xml:space="preserve">
+    <value>Unexpected error occurred while adding question.</value>
+  </data>
+  <data name="UnknownErrorChangeConnectionString" xml:space="preserve">
+    <value>We couldn't change connection string due to an unexpected error. Please try again or contact support..</value>
+  </data>
+  <data name="UnknownErrorConnectionTest" xml:space="preserve">
+    <value>We couldn't test connection  due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorDeleteQuestion" xml:space="preserve">
+    <value>We couldn't delete your question due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorEditOrder" xml:space="preserve">
+    <value>We couldn't edit order due to an unexpected error.Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorEditQuestion" xml:space="preserve">
+    <value>We couldn't edit question due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorGetConnectionString" xml:space="preserve">
+    <value>We couldn't retrieve the connection string due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorGetCount" xml:space="preserve">
+    <value>We couldn't retrieve the question count due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorGetLastModified" xml:space="preserve">
+    <value>We couldn't retrieve Last Modified due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorGetQuestion" xml:space="preserve">
+    <value>We couldn't retrieve the question count due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnknownErrorQuestionsLoad" xml:space="preserve">
+    <value>Unexpected error occurred while loading questions.</value>
+  </data>
+  <data name="UnknownErrorSliderLoad" xml:space="preserve">
+    <value>Unexpected error occurred while loading slider questions.</value>
+  </data>
+  <data name="UnknownErrorSmileyLoad" xml:space="preserve">
+    <value>Unexpected error occurred while loading smiley questions.</value>
+  </data>
+  <data name="UnknownErrorStarsLoad" xml:space="preserve">
+    <value>Unexpected error occurred while loading star questions.</value>
+  </data>
+  <data name="UnknownErrorUpdateLastModified" xml:space="preserve">
+    <value>We couldn't update Last Modified due to an unexpected error. Please try again or contact support.</value>
+  </data>
+  <data name="UnsupportedQuestionType" xml:space="preserve">
+    <value>Unsupported question type.</value>
+  </data>
+  <data name="Validation_EditQuestionDataNull" xml:space="preserve">
+    <value>Please provide a question text or caption. This field cannot be empty.</value>
+  </data>
+  <data name="Validation_OrderOutOfRangeAdd" xml:space="preserve">
+    <value>Order value must not be grater than number of question + 1 !. Please enter a valid number.</value>
+  </data>
+  <data name="Validation_OrderOutOfRangeEdit" xml:space="preserve">
+    <value>Order value must not be grater than number of question + 1 !. Please enter a valid number.</value>
+  </data>
+  <data name="Validation_QuestionDataNull" xml:space="preserve">
+    <value>Please provide a question text or caption. This field cannot be empty.</value>
+  </data>
+  <data name="Validation_QuestionTypeInvalid" xml:space="preserve">
+    <value>The selected question type is not valid. Please choose a supported type.</value>
+  </data>
+</root>

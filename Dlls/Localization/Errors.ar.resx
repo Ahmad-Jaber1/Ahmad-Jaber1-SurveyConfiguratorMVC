@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="COLUMN_ORDER" xml:space="preserve">
+    <value>الترتيب</value>
+  </data>
+  <data name="COLUMN_QUESTION_TYPE" xml:space="preserve">
+    <value>نوع السؤال </value>
+  </data>
+  <data name="COLUMN_TEXT" xml:space="preserve">
+    <value>نص السؤال</value>
+  </data>
+  <data name="CONFIRM_DELETE_MESSAGE" xml:space="preserve">
+    <value>هل أنت متأكد من رغبتك في حذف السؤال المحدد؟</value>
+  </data>
+  <data name="CONFIRM_DELETE_TITLE" xml:space="preserve">
+    <value>تأكيد الحذف</value>
+  </data>
+  <data name="ConnectionStringInvalid" xml:space="preserve">
+    <value>لا يمكن الاتصال بقاعدة البيانات. يرجى التحقق من اسم الخادم واسم قاعدة البيانات واسم المستخدم وكلمة المرور.</value>
+  </data>
+  <data name="ConnectionStringNotSet" xml:space="preserve">
+    <value>سلسلة الاتصال بقاعدة البيانات غير مضبوطة أو غير صالحة. انتقل إلى الإعدادات ← اتصال قاعدة البيانات لإعدادها.</value>
+  </data>
+  <data name="DatabaseConnectionFailed" xml:space="preserve">
+    <value>فشل الاتصال بقاعدة البيانات. يرجى التواصل مع المسؤول لحل المشكلة.</value>
+  </data>
+  <data name="DatabaseUnavailable" xml:space="preserve">
+    <value>تعذر الوصول إلى قاعدة البيانات. قد تكون غير متصلة ، أو محذوفة، أو غير متاحة مؤقتًا.  يرجى التحقق من خادم قاعدة البيانات والمحاولة مرة أخرى.</value>
+  </data>
+  <data name="ERROR_CAPTION_TEXT_EMPTY" xml:space="preserve">
+    <value>يرجى إدخال نص بداية أو نهاية صحيح. لا يمكن أن يكون نص البداية أو النهاية فارغاً او يزيد طوله عن 30 حرفا .</value>
+  </data>
+  <data name="ERROR_END_VALUE_OUT_OF_RANGE" xml:space="preserve">
+    <value>الرجاء إدخال قيمة نهائية صحيحة. يجب أن تكون القيمة بين {0} و {1}</value>
+  </data>
+  <data name="ERROR_ORDER_VALUE_OUT_OF_RANGE" xml:space="preserve">
+    <value>يجب أن يكون السؤال قيمة موجبة , يرجى ادخال قيمة صحيحة</value>
+  </data>
+  <data name="ERROR_QUESTION_TEXT_EMPTY" xml:space="preserve">
+    <value>يرجى إدخال سؤال صحيح. لا يمكن أن يكون نص السؤال فارغاً أو يزيد طوله عن 60 حرفاً.</value>
+  </data>
+  <data name="ERROR_SMILEY_COUNT_INVALID" xml:space="preserve">
+    <value>الرجاء إدخال عدد صحيح من الرموز التعبيرية. يجب أن تكون القيمة بين 2 و 5.</value>
+  </data>
+  <data name="ERROR_STARS_COUNT_INVALID" xml:space="preserve">
+    <value>يرجى إدخال عدد صحيح من النجوم. يجب أن تكون القيمة بين 1 و 10.</value>
+  </data>
+  <data name="ERROR_START_VALUE_OUT_OF_RANGE" xml:space="preserve">
+    <value>الرجاء إدخال قيمة بداية صحيحة. يجب أن تكون القيمة بين 0 و {0}</value>
+  </data>
+  <data name="NotFound_DeleteQuestion" xml:space="preserve">
+    <value>لم يتم العثور على السؤال.</value>
+  </data>
+  <data name="NotFound_EditQuestion" xml:space="preserve">
+    <value>لم يتم العثور على السؤال المحدد. يرجى مراجعة اختيارك.</value>
+  </data>
+  <data name="NotFound_GetQuestion" xml:space="preserve">
+    <value>لم يتم العثور على السؤال المحدد. يرجى مراجعة اختيارك.</value>
+  </data>
+  <data name="QUESTION_TYPE_SLIDER" xml:space="preserve">
+    <value>سؤال شريط التمرير</value>
+  </data>
+  <data name="QUESTION_TYPE_SMILEY" xml:space="preserve">
+    <value>سؤال الوجوه المبتسمة </value>
+  </data>
+  <data name="QUESTION_TYPE_STARS" xml:space="preserve">
+    <value>سؤال النجوم</value>
+  </data>
+  <data name="SqlErrorAddQuestion" xml:space="preserve">
+    <value>لم نتمكن من حفظ سؤالك في الوقت الحالي. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="SqlErrorDeleteQuestion" xml:space="preserve">
+    <value>لم نتمكن من حذف سؤالك في الوقت الحالي. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="SqlErrorEditOrder" xml:space="preserve">
+    <value>لم نتمكن من تحديث الترتيب في الوقت الحالي. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="SqlErrorEditQuestion" xml:space="preserve">
+    <value>لم نتمكن من تحديث سؤالك في الوقت الحالي. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="SqlErrorGetCount" xml:space="preserve">
+    <value>لم نتمكن من استرجاع عدد الأسئلة في الوقت الحالي. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="SqlErrorGetLastModified" xml:space="preserve">
+    <value>لم نتمكن من استرجاع تاريخ آخر تعديل. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="SqlErrorGetQuestion" xml:space="preserve">
+    <value>لم نتمكن من استرجاع السؤال. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="SqlErrorSliderLoad" xml:space="preserve">
+    <value>
+حدث خطأ في SQL أثناء تحميل أسئلة شريط التمرير. يرجى التواصل مع الدعم الفني.</value>
+  </data>
+  <data name="SqlErrorSmileyLoad" xml:space="preserve">
+    <value>حدث خطأ في SQL أثناء تحميل أسئلة الوجوه التعبيرية. يرجى التواصل مع الدعم الفني.</value>
+  </data>
+  <data name="SqlErrorStarsLoad" xml:space="preserve">
+    <value>حدث خطأ في SQL أثناء تحميل أسئلة النجوم. يرجى التواصل مع الدعم الفني.</value>
+  </data>
+  <data name="SqlErrorUpdateLastModified" xml:space="preserve">
+    <value>لم نتمكن من تحديث تاريخ آخر تعديل. يرجى المحاولة مرة أخرى لاحقاً.</value>
+  </data>
+  <data name="UI_ERROR_MESSAGE" xml:space="preserve">
+    <value>حدث خطأ غير متوقع. يرجى الاتصال بالدعم الفني أو مسؤول النظام.</value>
+  </data>
+  <data name="UnknownErrorAddQuestion" xml:space="preserve">
+    <value>حدث خطأ غير متوقع أثناء إضافة السؤال.</value>
+  </data>
+  <data name="UnknownErrorChangeConnectionString" xml:space="preserve">
+    <value>لم نتمكن من تغيير سلسلة الاتصال بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم الفني.</value>
+  </data>
+  <data name="UnknownErrorConnectionTest" xml:space="preserve">
+    <value>لم نتمكن من اختبار الاتصال بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم الفني.</value>
+  </data>
+  <data name="UnknownErrorDeleteQuestion" xml:space="preserve">
+    <value>لم نتمكن من حذف سؤالك بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.</value>
+  </data>
+  <data name="UnknownErrorEditOrder" xml:space="preserve">
+    <value>لم نتمكن من تعديل الترتيب بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.</value>
+  </data>
+  <data name="UnknownErrorEditQuestion" xml:space="preserve">
+    <value>لم نتمكن من تعديل السؤال بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.</value>
+  </data>
+  <data name="UnknownErrorGetConnectionString" xml:space="preserve">
+    <value>لم نتمكن من استرداد سلسلة الاتصال بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم الفني.</value>
+  </data>
+  <data name="UnknownErrorGetCount" xml:space="preserve">
+    <value>لم نتمكن من استرجاع عدد الأسئلة بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.</value>
+  </data>
+  <data name="UnknownErrorGetLastModified" xml:space="preserve">
+    <value>لم نتمكن من استرجاع تاريخ آخر تعديل بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم الفني.</value>
+  </data>
+  <data name="UnknownErrorGetQuestion" xml:space="preserve">
+    <value>لم نتمكن من استرجاع عدد الأسئلة بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.</value>
+  </data>
+  <data name="UnknownErrorQuestionsLoad" xml:space="preserve">
+    <value>حدث خطأ غير متوقع أثناء تحميل الأسئلة.</value>
+  </data>
+  <data name="UnknownErrorSliderLoad" xml:space="preserve">
+    <value>حدث خطأ غير متوقع أثناء تحميل أسئلة شريط التمرير.</value>
+  </data>
+  <data name="UnknownErrorSmileyLoad" xml:space="preserve">
+    <value>حدث خطأ غير متوقع أثناء تحميل أسئلة الرموز التعبيرية.</value>
+  </data>
+  <data name="UnknownErrorStarsLoad" xml:space="preserve">
+    <value>حدث خطأ غير متوقع أثناء تحميل أسئلة النجوم.</value>
+  </data>
+  <data name="UnknownErrorUpdateLastModified" xml:space="preserve">
+    <value>لم نتمكن من تحديث تاريخ آخر تعديل بسبب خطأ غير متوقع. يرجى المحاولة مرة أخرى أو الاتصال بالدعم الفني.</value>
+  </data>
+  <data name="UnsupportedQuestionType" xml:space="preserve">
+    <value>نوع السؤال غير مدعوم.</value>
+  </data>
+  <data name="Validation_EditQuestionDataNull" xml:space="preserve">
+    <value>يرجى تقديم نص السؤال أو نص البداية/النهاية. لا يمكن ترك هذا الحقل فارغاً.</value>
+  </data>
+  <data name="Validation_OrderOutOfRangeAdd" xml:space="preserve">
+    <value>يجب ألا تتجاوز ترتيب السؤال (عدد الأسئلة + 1)! يرجى إدخال رقم صحيح.</value>
+  </data>
+  <data name="Validation_OrderOutOfRangeEdit" xml:space="preserve">
+    <value>يجب ألا تتجاوز ترتيب السؤال (عدد الأسئلة + 1)! يرجى إدخال رقم صحيح.</value>
+  </data>
+  <data name="Validation_QuestionDataNull" xml:space="preserve">
+    <value>يرجى تقديم نص السؤال أو نص البداية/النهاية. لا يمكن ترك هذا الحقل فارغاً.</value>
+  </data>
+  <data name="Validation_QuestionTypeInvalid" xml:space="preserve">
+    <value>نوع السؤال المحدد غير صالح. يرجى اختيار نوع مدعوم.</value>
+  </data>
+</root>
