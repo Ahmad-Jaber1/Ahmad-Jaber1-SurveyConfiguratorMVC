@@ -1,0 +1,11 @@
+﻿@model SurveyConfiguratorTaskWeb.Models.SmileyQuestionViewModel
+
+<div>
+    <h4>Smiley Settings</h4>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.SmileyCount)
+        @Html.TextBoxFor(m => m.SmileyCount, new { @class = "form-control", @data_raw_field = "SmileyCount" })
+        @Html.ValidationMessageFor(m => m.SmileyCount, "", new { @class = "text-danger" })
+    </div>
+</div>

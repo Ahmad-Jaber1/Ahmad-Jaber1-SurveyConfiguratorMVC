@@ -1,0 +1,137 @@
+﻿@model SurveyWeb.Models.CreateQuestionViewModel
+@{
+    ViewBag.Title = "Create Question";
+}
+
+<h2>Create Question</h2>
+
+@using (Html.BeginForm("CreateQuestion", "Question", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <!-- Question Text -->
+        <div class="form-group">
+            @Html.LabelFor(m => m.Text, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Text, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Text, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Order -->
+        <div class="form-group">
+            @Html.LabelFor(m => m.Order, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Order, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Order, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Question Type Dropdown -->
+        <div class="form-group">
+            @Html.LabelFor(m => m.QuestionType, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select id="questionType" name="QuestionType" class="form-control">
+                    <option value="">-- Select Type --</option>
+                    <option value="SliderQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.SliderQuestion ? "selected" : "")>Slider</option>
+                    <option value="StarsQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.StarsQuestion ? "selected" : "")>Stars</option>
+                    <option value="SmileyFacesQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.SmileyFacesQuestion ? "selected" : "")>Smiley</option>
+                </select>
+                @Html.ValidationMessageFor(m => m.QuestionType, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @Html.HiddenFor(m => m.RawData)
+
+        <hr />
+
+        <!-- Partial container (dynamic) -->
+        <div id="questionPartialContainer"></div>
+
+        <br />
+        <button type="submit" class="btn btn-success">Save</button>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    </div>
+}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const dropdown = document.getElementById("questionType");
+        const container = document.getElementById("questionPartialContainer");
+        const form = document.querySelector("form");
+        const rawDataInput = form.querySelector("input[name='RawData']");
+
+        function applyRawDataToFields(raw) {
+            if (!raw) return;
+
+            let obj;
+            try {
+                obj = JSON.parse(raw);
+            } catch (e) {
+                return;
+            }
+
+            if (!obj || typeof obj !== "object") return;
+
+            const fields = container.querySelectorAll("[data-raw-field]");
+            fields.forEach(f => {
+                const key = f.getAttribute("data-raw-field");
+                if (Object.prototype.hasOwnProperty.call(obj, key)) {
+                    f.value = obj[key];
+                }
+            });
+        }
+
+        // Function to load partial view
+        function loadPartial(type) {
+            if (!type) {
+                container.innerHTML = "";
+                return Promise.resolve();
+            }
+
+            return fetch(`/Question/GetPartial?type=${type}`)
+                .then(response => response.text())
+                .then(html => {
+                    container.innerHTML = html;
+
+                    // Restore values posted previously (important after server-side validation fails)
+                    applyRawDataToFields(rawDataInput.value);
+
+                    // Re-parse unobtrusive validation for new fields
+                    if (window.jQuery && $.validator) {
+                        // reset validator cache then parse again
+                        $(form).removeData("validator");
+                        $(form).removeData("unobtrusiveValidation");
+                        $.validator.unobtrusive.parse(form);
+                    }
+                })
+                .catch(err => console.error(err));
+        }
+
+        // Load partial if a type is pre-selected on page load
+        loadPartial(dropdown.value);
+
+        // Load partial on type change
+        dropdown.addEventListener("change", function () {
+            // optional: clear old raw data when type changes
+            rawDataInput.value = "";
+            loadPartial(this.value);
+        });
+
+        // Serialize partial inputs into RawData on form submit
+        form.addEventListener("submit", function () {
+            const fields = container.querySelectorAll("[data-raw-field]");
+            const rawData = {};
+
+            fields.forEach(f => {
+                const key = f.getAttribute("data-raw-field");
+                rawData[key] = f.value;
+            });
+
+            rawDataInput.value = JSON.stringify(rawData);
+        });
+    });
+</script>

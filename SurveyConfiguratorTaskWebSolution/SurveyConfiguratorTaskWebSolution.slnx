@@ -5,5 +5,6 @@
   <Project Path="../Dlls/Repository/Repository.csproj" />
   <Project Path="../Dlls/Services/Services.csproj" />
   <Project Path="../Dlls/Shared/Shared.csproj" />
+  <Project Path="Helper/Helper.csproj" Id="85cfe7ce-14d4-4263-bc38-b5f958cd663e" />
   <Project Path="SurveyWeb/SurveyWeb.csproj" Id="139fade6-5a48-4584-8ceb-80ef88204235" />
 </Solution>

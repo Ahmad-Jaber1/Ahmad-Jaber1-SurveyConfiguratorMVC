@@ -149,16 +149,18 @@
     <Compile Include="App_Start\ContainerConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LanguagesController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Controllers\SliderQuestionController.cs" />
     <Compile Include="Controllers\SmileyQuestionController.cs" />
     <Compile Include="Controllers\StarsQuestionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\QuestionHelper.cs" />
     <Compile Include="Models\BasicQuestionViewModel.cs" />
+    <Compile Include="Models\CreateQuestionViewModel.cs" />
     <Compile Include="Models\SliderQuestionViewModel.cs" />
     <Compile Include="Models\SmileyQuestionViewModel.cs" />
     <Compile Include="Models\StarsQuestionViewModel.cs" />
@@ -232,10 +234,13 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Question\Add.cshtml" />
+    <Content Include="Views\Question\_SliderPartial.cshtml" />
+    <Content Include="Views\Question\_StarsPartial.cshtml" />
+    <Content Include="Views\Question\_SmileyPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Base\" />
     <Folder Include="Views\Languages\" />
   </ItemGroup>
   <ItemGroup>

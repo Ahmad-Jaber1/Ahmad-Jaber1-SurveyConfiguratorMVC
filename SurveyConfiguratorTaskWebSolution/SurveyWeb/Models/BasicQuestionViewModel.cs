@@ -6,10 +6,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using SurveyWeb.Resources;
+using Models;
 
 namespace SurveyConfiguratorTaskWeb.Models
 {
-    public class BasicQuestionViewModel
+    public  class BasicQuestionViewModel
     {
         [Required]
         [MaxLength(60)]
@@ -23,6 +24,11 @@ namespace SurveyConfiguratorTaskWeb.Models
         [Required ]
         [Display(Name = "QUESTION_TYPE", ResourceType = typeof(Resources))]
 
-        public TypeQuestionEnum QuestionType { get; set; }
+        public virtual TypeQuestionEnum QuestionType { get; set; }
+
+        public virtual AddQuestionDto MapToDto()
+        {
+            return new AddQuestionDto();
+        }
     }
 }

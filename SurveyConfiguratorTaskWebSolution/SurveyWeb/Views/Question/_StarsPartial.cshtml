@@ -1,0 +1,11 @@
+﻿@model SurveyConfiguratorTaskWeb.Models.StarsQuestionViewModel
+
+<div>
+    <h4>Stars Settings</h4>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.StarsCount)
+        @Html.TextBoxFor(m => m.StarsCount, new { @class = "form-control", @data_raw_field = "StarsCount" })
+        @Html.ValidationMessageFor(m => m.StarsCount, "", new { @class = "text-danger" })
+    </div>
+</div>

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\surveyweb\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\helpers\\questionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\helpers\\questionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\surveyweb\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\models\\smileyquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\models\\smileyquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\models\\starsquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\models\\starsquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\models\\basicquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\models\\basicquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\models\\sliderquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\models\\sliderquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\controllers\\sliderquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\controllers\\sliderquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\models\\createquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\models\\createquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,38 +51,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Web.Release.config",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.Release.config",
-              "RelativeDocumentMoniker": "SurveyWeb\\Web.Release.config",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.Release.config",
-              "RelativeToolTip": "SurveyWeb\\Web.Release.config",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-11T17:05:23.471Z"
+              "Title": "QuestionHelper.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Helpers\\QuestionHelper.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Helpers\\QuestionHelper.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Helpers\\QuestionHelper.cs",
+              "RelativeToolTip": "SurveyWeb\\Helpers\\QuestionHelper.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T10:41:13.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SliderQuestionViewModel.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\SliderQuestionViewModel.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Models\\SliderQuestionViewModel.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\SliderQuestionViewModel.cs",
+              "RelativeToolTip": "SurveyWeb\\Models\\SliderQuestionViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA1wCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T10:19:38.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SliderQuestionController.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Controllers\\SliderQuestionController.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Controllers\\SliderQuestionController.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Controllers\\SliderQuestionController.cs",
+              "RelativeToolTip": "SurveyWeb\\Controllers\\SliderQuestionController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:42:06.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BasicQuestionViewModel.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\BasicQuestionViewModel.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Models\\BasicQuestionViewModel.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\BasicQuestionViewModel.cs",
+              "RelativeToolTip": "SurveyWeb\\Models\\BasicQuestionViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:04:16.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StarsQuestionViewModel.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\StarsQuestionViewModel.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Models\\StarsQuestionViewModel.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\StarsQuestionViewModel.cs",
+              "RelativeToolTip": "SurveyWeb\\Models\\StarsQuestionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:02:58.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Web.Debug.config",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.Debug.config",
-              "RelativeDocumentMoniker": "SurveyWeb\\Web.Debug.config",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.Debug.config",
-              "RelativeToolTip": "SurveyWeb\\Web.Debug.config",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-11T17:05:18.479Z"
+              "Title": "SmileyQuestionViewModel.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\SmileyQuestionViewModel.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Models\\SmileyQuestionViewModel.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\SmileyQuestionViewModel.cs",
+              "RelativeToolTip": "SurveyWeb\\Models\\SmileyQuestionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:04:14.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateQuestionViewModel.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\CreateQuestionViewModel.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Models\\CreateQuestionViewModel.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Models\\CreateQuestionViewModel.cs",
+              "RelativeToolTip": "SurveyWeb\\Models\\CreateQuestionViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:57:33.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.config",
-              "RelativeDocumentMoniker": "SurveyWeb\\Web.config",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.config",
-              "RelativeToolTip": "SurveyWeb\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-11T17:04:23.203Z",
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "SurveyWeb\\Controllers\\QuestionController.cs",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "SurveyWeb\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwEoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:52:04.124Z",
               "EditorCaption": ""
             }
           ]

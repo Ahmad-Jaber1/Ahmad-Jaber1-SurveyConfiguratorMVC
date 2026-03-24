@@ -109,8 +109,8 @@ namespace testTaskConfigurator.Controllers
                     EndValue = pSliderQuestion.EndValue,
                     StartCaption = pSliderQuestion.StartCaption,
                     EndCaption = pSliderQuestion.EndCaption,
-                    Text = pSliderQuestion.Text,
-                    Order = pSliderQuestion.Order
+                    //Text = pSliderQuestion.Text,
+                    //Order = pSliderQuestion.Order
                 };
 
                 var tResult = mService.EditQuestion((int)TempData["Id"], tEditQuestionDto);

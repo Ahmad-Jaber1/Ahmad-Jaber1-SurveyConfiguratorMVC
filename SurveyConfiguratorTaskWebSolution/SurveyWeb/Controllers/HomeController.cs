@@ -15,7 +15,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
     public class HomeController : Controller
     {
         IQuestionService mService;
-        const string UI_ERROR_MESSAGE ="Error"; 
+        const string UI_ERROR_MESSAGE = "UI_ERROR_MESSAGE"; 
         public HomeController(IQuestionService pService )
         {
             
@@ -53,7 +53,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             {
 
                 Log.Error(ex, "Unexpected error occurred while loading questions in Index action.");
-                return View(viewName: "Error",model: nameof(UI_ERROR_MESSAGE) );
+                return View(viewName: "Error",model: UI_ERROR_MESSAGE );
             }
 
         }
@@ -67,7 +67,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             catch (Exception ex)
             {
                 Log.Error(ex, "Unexpected error occurred while loading Add action.");
-                return View(viewName: "Error", model: nameof(UI_ERROR_MESSAGE));
+                return View(viewName: "Error", model: UI_ERROR_MESSAGE);
             }
         }
 
@@ -104,7 +104,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             catch (Exception ex)
             {
                 Log.Error(ex, "Unexpected error occurred while adding basic question info in AddBasicQuestoinInfo action.");
-                return View(viewName: "Error", model: nameof(UI_ERROR_MESSAGE));
+                return View(viewName: "Error", model: UI_ERROR_MESSAGE);
             }
         }
         
@@ -128,7 +128,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             catch (Exception ex)
             {
                 Log.Error(ex, $"Unexpected error occurred while fetching question with ID {id} in ConfirmDeletion action.");
-                return View(viewName: "Error", model: nameof(UI_ERROR_MESSAGE));
+                return View(viewName: "Error", model: UI_ERROR_MESSAGE);
             }
         }
         [HttpPost]
@@ -149,7 +149,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             catch (Exception ex)
             {
                 Log.Error(ex, $"Unexpected error occurred while deleting question with ID {id} in Delete action.");
-                return View(viewName: "Error", model: nameof(UI_ERROR_MESSAGE));
+                return View(viewName: "Error", model: UI_ERROR_MESSAGE);
             }
         }
 
@@ -171,8 +171,8 @@ namespace SurveyConfiguratorTaskWeb.Controllers
                         var tSliderQuestion = (SliderQuestion)tResult.Data;
                         var tSliderViewModel = new SliderQuestionViewModel
                         {
-                            Text = tSliderQuestion.Text,
-                            Order = tSliderQuestion.Order,
+                            //Text = tSliderQuestion.Text,
+                            //Order = tSliderQuestion.Order,
                             StartValue = tSliderQuestion.StartValue,
                             EndValue = tSliderQuestion.EndValue,
                             StartCaption = tSliderQuestion.StartCaption,
@@ -206,7 +206,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             catch (Exception ex)
             {
                 Log.Error(ex, $"Unexpected error occurred while editing question with ID {id} in Edit action.");
-                return View(viewName: "Error", model: nameof(UI_ERROR_MESSAGE));
+                return View(viewName: "Error", model: UI_ERROR_MESSAGE);
             }
         }
 

@@ -9,7 +9,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
 {
     public class LanguagesController : Controller
     {
-        const string UI_ERROR_MESSAGE = "Error";
+        const string UI_ERROR_MESSAGE = "UI_ERROR_MESSAGE";
 
         public ActionResult Arabic()
         {
@@ -21,7 +21,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             catch (Exception ex)
             {
                 Log.Error(ex, "Unexpected error occurred while switching language to Arabic in Arabic action.");
-                return View(viewName: "Error", model: nameof(UI_ERROR_MESSAGE));
+                return View(viewName: "Error", model: UI_ERROR_MESSAGE);
             }
         }
 
@@ -35,7 +35,7 @@ namespace SurveyConfiguratorTaskWeb.Controllers
             catch (Exception ex)
             {
                 Log.Error(ex, "Unexpected error occurred while switching language to English in English action.");
-                return View(viewName: "Error", model: nameof(UI_ERROR_MESSAGE));
+                return View(viewName: "Error", model: UI_ERROR_MESSAGE);
             }
         }
     }

@@ -1,0 +1,29 @@
+﻿@model SurveyConfiguratorTaskWeb.Models.SliderQuestionViewModel
+
+<div>
+    <h4>Slider Settings</h4>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.StartValue)
+        @Html.TextBoxFor(m => m.StartValue, new { @class = "form-control", @data_raw_field = "StartValue" })
+        @Html.ValidationMessageFor(m => m.StartValue, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.EndValue)
+        @Html.TextBoxFor(m => m.EndValue, new { @class = "form-control", @data_raw_field = "EndValue" })
+        @Html.ValidationMessageFor(m => m.EndValue, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.StartCaption)
+        @Html.TextBoxFor(m => m.StartCaption, new { @class = "form-control", @data_raw_field = "StartCaption" })
+        @Html.ValidationMessageFor(m => m.StartCaption, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.EndCaption)
+        @Html.TextBoxFor(m => m.EndCaption, new { @class = "form-control", @data_raw_field = "EndCaption" })
+        @Html.ValidationMessageFor(m => m.EndCaption, "", new { @class = "text-danger" })
+    </div>
+</div>

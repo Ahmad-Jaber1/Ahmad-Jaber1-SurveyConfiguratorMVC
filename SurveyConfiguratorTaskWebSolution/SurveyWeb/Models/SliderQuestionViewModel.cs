@@ -1,25 +1,20 @@
-﻿using System;
+﻿using Models;
+using SurveyConfiguratorTask.Models;
+using SurveyWeb.Resources;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-using SurveyWeb.Resources;
 
 namespace SurveyConfiguratorTaskWeb.Models
 {
-    public class SliderQuestionViewModel
+    public class SliderQuestionViewModel : BasicQuestionViewModel
     {
-        [Required]
-        [MaxLength(60)]
-        [Display(Name = "QUESTION_TEXT", ResourceType = typeof(Resources))]
 
-        public string Text { get; set; }
-        [Required]
-        [Range(1, int.MaxValue)]
-        [Display(Name = "QUESTION_ORDER", ResourceType = typeof(Resources))]
 
-        public int Order { get; set; }
-        [Required   ]
+        
+        [Required]
 
         [Display(Name = "START_VALUE" , ResourceType = typeof(Resources)) ]
         [Range(0,99)]
@@ -38,6 +33,13 @@ namespace SurveyConfiguratorTaskWeb.Models
         [Display(Name = "END_CAPTION", ResourceType = typeof(Resources))]
         public string EndCaption { get; set; }
 
-        
+        public override AddQuestionDto MapToDto()
+        {
+
+            return new AddQuestionDto { Text = this.Text, Order = this.Order, StartValue = this.StartValue ,
+                StartCaption = this.StartCaption , EndCaption = this.EndCaption , EndValue = this.EndValue };
+        }
+
+
     }
 }
