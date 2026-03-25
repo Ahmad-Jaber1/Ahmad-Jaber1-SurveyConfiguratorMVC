@@ -14,24 +14,60 @@ namespace Helper
 {
     public  class QuestionHelper
     {
-        public static BasicQuestionViewModel Deserialize(CreateQuestionViewModel pCreateQuestionViewModel )
+        public static string SerializeToRawData(Question pQuestion)
         {
-            BasicQuestionViewModel tQuestion = null; 
-            switch (pCreateQuestionViewModel.QuestionType)
+            object obj = null;
+
+            switch (pQuestion.TypeQuestion)
             {
                 case TypeQuestionEnum.SliderQuestion:
-                    tQuestion = JsonConvert.DeserializeObject<SliderQuestionViewModel>(pCreateQuestionViewModel.RawData);
+                    var tSlider = (SliderQuestion)pQuestion;
+                    obj = new
+                    {
+                        StartValue = tSlider.StartValue,
+                        EndValue = tSlider.EndValue,
+                        StartCaption = tSlider.StartCaption,
+                        EndCaption = tSlider.EndCaption
+                    };
                     break;
+
                 case TypeQuestionEnum.StarsQuestion:
-                    tQuestion = JsonConvert.DeserializeObject<StarsQuestionViewModel>(pCreateQuestionViewModel.RawData);
+                    var tStars = (StarsQuestion)pQuestion;
+                    obj = new
+                    {
+                        StarsCount = tStars.StarsCount
+                    };
                     break;
+
                 case TypeQuestionEnum.SmileyFacesQuestion:
-                    tQuestion = JsonConvert.DeserializeObject<SmileyQuestionViewModel>(pCreateQuestionViewModel.RawData);
+                    var tSmiley = (SmileyFacesQuestion)pQuestion;
+                    obj = new
+                    {
+                        SmileyCount = tSmiley.SmileyCount
+                    };
                     break;
             }
-            tQuestion.Text = pCreateQuestionViewModel.Text; 
-            tQuestion.Order = pCreateQuestionViewModel.Order;
-            tQuestion.QuestionType = pCreateQuestionViewModel.QuestionType;
+
+            return JsonConvert.SerializeObject(obj);
+        }
+        public static BasicQuestionViewModel Deserialize(QuestionFormViewModel pQuestionFormViewModel )
+        {
+            BasicQuestionViewModel tQuestion = null; 
+            switch (pQuestionFormViewModel.QuestionType)
+            {
+                case TypeQuestionEnum.SliderQuestion:
+                    tQuestion = JsonConvert.DeserializeObject<SliderQuestionViewModel>(pQuestionFormViewModel.RawData);
+                    break;
+                case TypeQuestionEnum.StarsQuestion:
+                    tQuestion = JsonConvert.DeserializeObject<StarsQuestionViewModel>(pQuestionFormViewModel.RawData);
+                    break;
+                case TypeQuestionEnum.SmileyFacesQuestion:
+                    tQuestion = JsonConvert.DeserializeObject<SmileyQuestionViewModel>(pQuestionFormViewModel.RawData);
+                    break;
+            }
+            tQuestion.Text = pQuestionFormViewModel.Text; 
+            tQuestion.Order = pQuestionFormViewModel.Order;
+            tQuestion.QuestionType = pQuestionFormViewModel.QuestionType;
             return tQuestion;
         }
         public static bool Validate(BasicQuestionViewModel pQuestion , out List<ValidationResult> pValidationResults)
@@ -42,5 +78,7 @@ namespace Helper
             pValidationResults = validationResults;
             return isValid;
         }
+
+        
     }
 }

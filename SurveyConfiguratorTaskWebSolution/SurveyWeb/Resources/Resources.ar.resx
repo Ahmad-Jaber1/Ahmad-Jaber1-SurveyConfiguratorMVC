@@ -261,4 +261,10 @@
   <data name="HOME" xml:space="preserve">
     <value>الرئيسية</value>
   </data>
+  <data name="CREATE_QUESTION" xml:space="preserve">
+    <value>انشاء سؤال</value>
+  </data>
+  <data name="EDIT_QUESTION" xml:space="preserve">
+    <value>تعديل السؤال</value>
+  </data>
 </root>

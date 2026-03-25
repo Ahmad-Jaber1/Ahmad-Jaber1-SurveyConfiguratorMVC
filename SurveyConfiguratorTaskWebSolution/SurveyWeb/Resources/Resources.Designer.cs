@@ -133,6 +133,15 @@ namespace SurveyWeb.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create Question.
+        /// </summary>
+        public static string CREATE_QUESTION {
+            get {
+                return ResourceManager.GetString("CREATE_QUESTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete.
         /// </summary>
         public static string DELETE_BUTTON {
@@ -174,6 +183,15 @@ namespace SurveyWeb.Resources {
         public static string EDIT_BUTTON {
             get {
                 return ResourceManager.GetString("EDIT_BUTTON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit Question.
+        /// </summary>
+        public static string EDIT_QUESTION {
+            get {
+                return ResourceManager.GetString("EDIT_QUESTION", resourceCulture);
             }
         }
         

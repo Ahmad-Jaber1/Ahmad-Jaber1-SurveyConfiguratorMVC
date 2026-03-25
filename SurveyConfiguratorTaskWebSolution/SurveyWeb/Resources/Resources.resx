@@ -261,4 +261,10 @@
   <data name="HOME" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="CREATE_QUESTION" xml:space="preserve">
+    <value>Create Question</value>
+  </data>
+  <data name="EDIT_QUESTION" xml:space="preserve">
+    <value>Edit Question</value>
+  </data>
 </root>

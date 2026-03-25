@@ -22,7 +22,7 @@
 <div class="card">
     <div class="card-header d-flex justify-content-between align-items-center">
         <h5 class="mb-0">@Resources.QUESTIONS</h5>
-        @Html.ActionLink(Resources.ADD_BUTTON, "Add" , new { }, htmlAttributes: new { @class = "btn btn-info" })
+        @Html.ActionLink(Resources.ADD_BUTTON,"Add","Question", new { }, htmlAttributes: new { @class = "btn btn-info" })
 
     </div>
 
@@ -62,9 +62,9 @@
 
                     </td>
                     <td>
-                        @Html.ActionLink(Resources.EDIT_BUTTON, EDIT_ACTION, new { question.Id }, new { @class = "btn btn-info" })
+                        @Html.ActionLink(Resources.EDIT_BUTTON, EDIT_ACTION , "Question", new { question.Id }, new { @class = "btn btn-info" })
 
-                        @Html.ActionLink(Resources.DELETE_BUTTON, DELETE_ACTION, new { question.Id }, new { @class = "btn btn-danger" })
+                        @Html.ActionLink(Resources.DELETE_BUTTON, DELETE_ACTION , "Question", new { question.Id }, new { @class = "btn btn-danger" })
 
                     </td>
                 </tr>

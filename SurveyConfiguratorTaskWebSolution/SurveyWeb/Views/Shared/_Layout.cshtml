@@ -1,10 +1,11 @@
-﻿
-@{ 
-    
+﻿@using System.Globalization
+
+@{
+
     const string APPLICATION_NAME = "name";
     const string HOME = "Home";
 }
- 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,8 +29,8 @@
                     <li class="nav-item">
                         <select class="form-select" style="width:120px;" onchange="location = this.value;">
                             <option selected disabled>@SurveyWeb.Resources.Resources.LANGUAGE</option>
-                            <option value="/Languages/Arabic">@SurveyWeb.Resources.Resources.ARABIC</option>
-                            <option value="/Languages/English">@SurveyWeb.Resources.Resources.ENGLISH</option>
+                            <option value="/Languages/Arabic">@SurveyWeb.Resources.Resources.ResourceManager.GetString("ARABIC", CultureInfo.GetCultureInfo("ar"))</option>
+                            <option value="/Languages/English">@SurveyWeb.Resources.Resources.ResourceManager.GetString("ENGLISH", CultureInfo.GetCultureInfo("en"))</option>
                         </select>
                     </li>
                 </ul>
@@ -37,7 +38,7 @@
         </div>
     </nav>
     <div class="container body-content">
-        
+
         @RenderBody()
         <hr />
         <footer>

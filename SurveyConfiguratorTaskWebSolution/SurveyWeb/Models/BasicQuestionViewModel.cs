@@ -26,9 +26,18 @@ namespace SurveyConfiguratorTaskWeb.Models
 
         public virtual TypeQuestionEnum QuestionType { get; set; }
 
-        public virtual AddQuestionDto MapToDto()
+        public virtual AddQuestionDto MapToAddDto()
         {
             return new AddQuestionDto();
         }
+        public virtual EditQuestionDto MapToEditDto()
+        {
+            return new EditQuestionDto();
+        }
+        public virtual   BasicQuestionViewModel MapToQuestionViewModel(Question pQuesiton)
+        {
+            return new BasicQuestionViewModel();
+        }
+        
     }
 }

@@ -1010,3 +1010,10 @@ System.Collections.Generic.KeyNotFoundException: Question not found.
    at Services.QuestionService.DeleteQuestion(Int32 pId) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 225
 
 ============================================================
+2026-03-25 11:52:20.082 | Error | 
+Message    : Attempted to delete a question that does not exist. Id: 12
+Exception  :
+System.Collections.Generic.KeyNotFoundException: Question not found.
+   at Services.QuestionService.DeleteQuestion(Int32 pId) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Dlls\Services\QuestionService.cs:line 225
+
+============================================================

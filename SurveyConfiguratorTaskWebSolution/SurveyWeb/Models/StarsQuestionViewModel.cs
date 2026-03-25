@@ -1,4 +1,5 @@
 ﻿using Models;
+using SurveyConfiguratorTask.Models;
 using SurveyWeb.Resources;
 using System;
 using System.Collections.Generic;
@@ -17,10 +18,27 @@ namespace SurveyConfiguratorTaskWeb.Models
         [Display(Name ="STARS_COUNT", ResourceType = typeof(Resources))]
         public int StarsCount { get; set; }
 
-        public override AddQuestionDto MapToDto()
+        public override AddQuestionDto MapToAddDto()
         {
 
             return new AddQuestionDto { Text = this.Text, Order = this.Order, StarsCount = this.StarsCount };
+        }
+        public override EditQuestionDto MapToEditDto()
+        {
+
+            return new EditQuestionDto { Text = this.Text, Order = this.Order, StarsCount = this.StarsCount };
+        }
+
+        public override BasicQuestionViewModel MapToQuestionViewModel(Question pQuesiton)
+        {
+            var tStars = (StarsQuestion)pQuesiton;
+            return new StarsQuestionViewModel
+            {
+                Text = tStars.Text,
+                Order = tStars.Order,
+                QuestionType = tStars.TypeQuestion,
+                StarsCount = tStars.StarsCount
+            };
         }
     }
 }

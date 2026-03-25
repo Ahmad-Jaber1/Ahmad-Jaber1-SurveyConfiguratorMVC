@@ -7,6 +7,12 @@
     const string DELETE_CONFIRM_MESSAGE= "Are you sure you want to delete this question?";
     const string CANCEL = "Cancel";
     const string OK = "Yes, Delete";
+    const string HOME_CONTROLLER = "Home";
+    const string QUESTION_CONTROLLER = "Question";
+
+    const string INDEX_ACTION = "Index";
+    const string DELETE_ACTION = "Delete";
+
 }
 
 
@@ -52,7 +58,7 @@
 
         <br />
 
-        @using (Html.BeginForm("Delete", "Home",routeValues: new { @Model.Id }))
+        @using (Html.BeginForm(DELETE_ACTION, QUESTION_CONTROLLER, routeValues: new { @Model.Id }))
         {
             @Html.AntiForgeryToken()
 
@@ -63,7 +69,7 @@
             </button>
 
             @Html.ActionLink(@Resources.CANCEL,
-                             "Index",
+                             INDEX_ACTION, HOME_CONTROLLER,
                              null,
                              new { @class = "btn btn-secondary ml-2" })
         }

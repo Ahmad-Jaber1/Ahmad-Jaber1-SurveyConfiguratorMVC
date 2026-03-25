@@ -9,8 +9,10 @@ using System.Web;
 
 namespace SurveyWeb.Models
 {
-    public class CreateQuestionViewModel
+    public class QuestionFormViewModel
     {
+        public int Id { get; set; }
+
         [Required]
         [MaxLength(60)]
         [Display(Name = "QUESTION_TEXT", ResourceType = typeof(Resources.Resources))]

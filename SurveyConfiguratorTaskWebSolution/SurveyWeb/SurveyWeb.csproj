@@ -222,14 +222,8 @@
     </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Add.cshtml" />
-    <Content Include="Views\SliderQuestion\SliderView.cshtml" />
-    <Content Include="Views\SmileyQuestion\SmileyView.cshtml" />
-    <Content Include="Views\StarsQuestion\StarsView.cshtml" />
-    <Content Include="Views\Home\ConfirmDeletion.cshtml" />
+    <Content Include="Views\Question\ConfirmDeletion.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
-    <Content Include="Views\SliderQuestion\EditSliderQuestion.cshtml" />
-    <Content Include="Views\SmileyQuestion\EditSmileyQuestion.cshtml" />
-    <Content Include="Views\StarsQuestion\EditStarsQuestion.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />

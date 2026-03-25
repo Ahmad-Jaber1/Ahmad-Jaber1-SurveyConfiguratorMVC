@@ -1,137 +1,161 @@
-﻿@model SurveyWeb.Models.CreateQuestionViewModel
+﻿@using SurveyWeb.Resources;
+@model SurveyWeb.Models.QuestionFormViewModel
 @{
-    ViewBag.Title = "Create Question";
+    ViewBag.Title = Model.Id == 0 ? Resources.CREATE_QUESTION : Resources.EDIT_QUESTION;
+    const string CREATE_QUESTION = "Create Question";
+    const string EDIT_QUESTION = "Edit Question";
+    const string HOME_CONTROLLER = "Home";
+    const string QUESTION_CONTROLLER = "Question";
+
+    const string INDEX_ACTION = "Index";
+    const string Delete_ACTION = "Delete";
+    const string EDIT_ACTION = "Edit";
+    const string CREATE_QUESTION_ACTION = "CreateQuestion";
+
+
+
 }
 
-<h2>Create Question</h2>
+<h2>@ViewBag.Title</h2>
 
-@using (Html.BeginForm("CreateQuestion", "Question", FormMethod.Post))
+@using (Html.BeginForm(
+    Model.Id == 0 ? CREATE_QUESTION_ACTION : EDIT_ACTION,
+    QUESTION_CONTROLLER,
+    FormMethod.Post))
 {
     @Html.AntiForgeryToken()
 
-    <div class="form-horizontal">
+    @Html.HiddenFor(m => m.Id)
+    @Html.HiddenFor(m => m.RawData)
 
-        <!-- Question Text -->
-        <div class="form-group">
-            @Html.LabelFor(m => m.Text, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.TextBoxFor(m => m.Text, new { @class = "form-control" })
-                @Html.ValidationMessageFor(m => m.Text, "", new { @class = "text-danger" })
-            </div>
+<div class="form-horizontal">
+
+    <!-- Question Text -->
+    <div class="form-group">
+        @Html.LabelFor(m => m.Text, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Text, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Text, "", new { @class = "text-danger" })
         </div>
-
-        <!-- Order -->
-        <div class="form-group">
-            @Html.LabelFor(m => m.Order, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.TextBoxFor(m => m.Order, new { @class = "form-control" })
-                @Html.ValidationMessageFor(m => m.Order, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <!-- Question Type Dropdown -->
-        <div class="form-group">
-            @Html.LabelFor(m => m.QuestionType, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                <select id="questionType" name="QuestionType" class="form-control">
-                    <option value="">-- Select Type --</option>
-                    <option value="SliderQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.SliderQuestion ? "selected" : "")>Slider</option>
-                    <option value="StarsQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.StarsQuestion ? "selected" : "")>Stars</option>
-                    <option value="SmileyFacesQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.SmileyFacesQuestion ? "selected" : "")>Smiley</option>
-                </select>
-                @Html.ValidationMessageFor(m => m.QuestionType, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        @Html.HiddenFor(m => m.RawData)
-
-        <hr />
-
-        <!-- Partial container (dynamic) -->
-        <div id="questionPartialContainer"></div>
-
-        <br />
-        <button type="submit" class="btn btn-success">Save</button>
-
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
     </div>
+
+    <!-- Order -->
+    <div class="form-group">
+        @Html.LabelFor(m => m.Order, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Order, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Order, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Question Type -->
+    <div class="form-group">
+        @Html.LabelFor(m => m.QuestionType, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+
+            <!-- Always render dropdown, disable in Edit -->
+            <select id="questionType" name="QuestionType" class="form-control"
+                    @(Model.Id != 0 ? "disabled" : "")>
+                <option value="SliderQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.SliderQuestion ? "selected" : "")>@Resources.SLIDER_QUESTION</option>
+                <option value="StarsQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.StarsQuestion ? "selected" : "")>@Resources.STARS_QUESTION</option>
+                <option value="SmileyFacesQuestion" @(Model.QuestionType == SurveyConfiguratorTask.Models.TypeQuestionEnum.SmileyFacesQuestion ? "selected" : "")>@Resources.SMILEY_QUESTION</option>
+            </select>
+
+            @* Hidden input ensures value posts in Edit *@
+            @if (Model.Id != 0)
+            {
+                @Html.HiddenFor(m => m.QuestionType)
+            }
+
+            @Html.ValidationMessageFor(m => m.QuestionType, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- Dynamic Partial -->
+    <div id="questionPartialContainer"></div>
+
+    <br />
+    <button type="submit" class="btn btn-success">
+        @(Model.Id == 0 ? Resources.CREATE : Resources.EDIT_BUTTON)
+    </button>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">
+        @Resources.BACK
+    </a>
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+</div>
 }
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const dropdown = document.getElementById("questionType");
-        const container = document.getElementById("questionPartialContainer");
-        const form = document.querySelector("form");
-        const rawDataInput = form.querySelector("input[name='RawData']");
+    const dropdown = document.getElementById("questionType");
+    const container = document.getElementById("questionPartialContainer");
+    const form = document.querySelector("form");
+    const rawDataInput = form.querySelector("input[name='RawData']");
+    const hiddenType = form.querySelector("input[name='QuestionType']");
 
-        function applyRawDataToFields(raw) {
-            if (!raw) return;
+    function applyRawDataToFields(raw) {
+        if (!raw) return;
 
-            let obj;
-            try {
-                obj = JSON.parse(raw);
-            } catch (e) {
-                return;
-            }
+        let obj;
+        try { obj = JSON.parse(raw); } catch { return; }
+        if (!obj || typeof obj !== "object") return;
 
-            if (!obj || typeof obj !== "object") return;
+        const fields = container.querySelectorAll("[data-raw-field]");
+        fields.forEach(f => {
+            const key = f.getAttribute("data-raw-field");
+            if (obj.hasOwnProperty(key)) f.value = obj[key];
+        });
+    }
 
-            const fields = container.querySelectorAll("[data-raw-field]");
-            fields.forEach(f => {
-                const key = f.getAttribute("data-raw-field");
-                if (Object.prototype.hasOwnProperty.call(obj, key)) {
-                    f.value = obj[key];
+    function loadPartial(type) {
+        if (!type) {
+            container.innerHTML = "";
+            return;
+        }
+
+        fetch(`/Question/GetPartial?type=${type}`)
+            .then(response => response.text())
+            .then(html => {
+                container.innerHTML = html;
+                applyRawDataToFields(rawDataInput.value);
+
+                if (window.jQuery && $.validator) {
+                    $(form).removeData("validator");
+                    $(form).removeData("unobtrusiveValidation");
+                    $.validator.unobtrusive.parse(form);
                 }
-            });
-        }
+            })
+            .catch(err => console.error(err));
+    }
 
-        // Function to load partial view
-        function loadPartial(type) {
-            if (!type) {
-                container.innerHTML = "";
-                return Promise.resolve();
+    // Edit mode: load partial from hiddenType
+    if (hiddenType) {
+        loadPartial(hiddenType.value);
+    }
+
+    // Create mode: wait for user selection
+        if (dropdown && !dropdown.disabled) {
+            dropdown.addEventListener("change", function () {
+                console.log("i see it ");
+                rawDataInput.value = "";
+                loadPartial(this.value);
+            });
+
+            
+            if (dropdown.value) {
+                loadPartial(dropdown.value); 
             }
-
-            return fetch(`/Question/GetPartial?type=${type}`)
-                .then(response => response.text())
-                .then(html => {
-                    container.innerHTML = html;
-
-                    // Restore values posted previously (important after server-side validation fails)
-                    applyRawDataToFields(rawDataInput.value);
-
-                    // Re-parse unobtrusive validation for new fields
-                    if (window.jQuery && $.validator) {
-                        // reset validator cache then parse again
-                        $(form).removeData("validator");
-                        $(form).removeData("unobtrusiveValidation");
-                        $.validator.unobtrusive.parse(form);
-                    }
-                })
-                .catch(err => console.error(err));
         }
 
-        // Load partial if a type is pre-selected on page load
-        loadPartial(dropdown.value);
-
-        // Load partial on type change
-        dropdown.addEventListener("change", function () {
-            // optional: clear old raw data when type changes
-            rawDataInput.value = "";
-            loadPartial(this.value);
-        });
-
-        // Serialize partial inputs into RawData on form submit
-        form.addEventListener("submit", function () {
-            const fields = container.querySelectorAll("[data-raw-field]");
-            const rawData = {};
-
-            fields.forEach(f => {
-                const key = f.getAttribute("data-raw-field");
-                rawData[key] = f.value;
-            });
-
-            rawDataInput.value = JSON.stringify(rawData);
-        });
+    // Serialize dynamic fields into RawData on submit
+    form.addEventListener("submit", function () {
+        const fields = container.querySelectorAll("[data-raw-field]");
+        const rawData = {};
+        fields.forEach(f => { rawData[f.getAttribute("data-raw-field")] = f.value; });
+        rawDataInput.value = JSON.stringify(rawData);
     });
+});
 </script>

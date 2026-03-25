@@ -3,6 +3,7 @@ using Models;
 using Newtonsoft.Json;
 using Serilog;
 using Services;
+using Shared;
 using SurveyConfiguratorTask.Models;
 using SurveyConfiguratorTaskWeb.Models;
 using SurveyWeb.Models;
@@ -22,6 +23,19 @@ namespace SurveyWeb.Controllers
 
         IQuestionService mService;
         const string UI_ERROR_MESSAGE = "Error";
+        const string ADD_VIEW = "Add";
+        const string HOME_CONTROLLER ="Home";
+        const string INDEX_ACTION = "Index";
+        const string ERROR_VIEW = "Error";
+        const string SLIDER_PARTIAL = "_SliderPartial";
+        const string SMILEY_PARTIAL = "_SmileyPartial";
+        const string STARS_PARTIAL = "_StarsPartial";
+        const string SLIDER_QUESTION = "SliderQuestion";
+        const string SMILEY_QUESTION = "SmileyFacesQuestion";
+        const string STARS_QUESTION = "StarsQuestion";
+
+
+
         public QuestionController(IQuestionService pService)
         {
 
@@ -42,59 +56,183 @@ namespace SurveyWeb.Controllers
         }
         public ActionResult Add()
         {
-            return View(new CreateQuestionViewModel());
+            return View(new QuestionFormViewModel());
         }
         [HttpPost]
-        public ActionResult CreateQuestion(CreateQuestionViewModel pQuestion)
+        public ActionResult CreateQuestion(QuestionFormViewModel pQuestion)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                
-                return View(viewName:"Add",pQuestion);
-            }
-
-            BasicQuestionViewModel tSpecificVM = QuestionHelper.Deserialize(pQuestion);
-
-            bool isValid = QuestionHelper.Validate(tSpecificVM , out var pValidationResults);
-           
-           
-
-            if (!isValid)
-            {
-                
-                foreach (var vr in pValidationResults)
+                if (!ModelState.IsValid)
                 {
-                    
-                    ModelState.AddModelError("", vr.ErrorMessage);
+
+                    return View(viewName: ADD_VIEW, pQuestion);
                 }
 
-                return View(viewName:"Add",pQuestion ); 
+                BasicQuestionViewModel tSpecificVM = QuestionHelper.Deserialize(pQuestion);
+
+                bool isValid = QuestionHelper.Validate(tSpecificVM, out var pValidationResults);
+
+
+
+                if (!isValid)
+                {
+
+                    foreach (var vr in pValidationResults)
+                    {
+
+                        ModelState.AddModelError("", vr.ErrorMessage);
+                    }
+
+                    return View(viewName: ADD_VIEW, pQuestion);
+                }
+
+
+                var tDto = tSpecificVM.MapToAddDto();
+
+
+                mService.AddQuestion(pQuestion.QuestionType, tDto);
+
+                return RedirectToAction(INDEX_ACTION, controllerName: HOME_CONTROLLER);
             }
-
-            
-            var tDto = tSpecificVM.MapToDto();
-
-          
-            mService.AddQuestion(pQuestion.QuestionType, tDto);
-
-            return RedirectToAction("Index",controllerName:"Home");
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Unexpected error occurred while creating question .");
+                return View(ERROR_VIEW, UI_ERROR_MESSAGE);
+            }
         }
 
 
-
-
-        public ActionResult GetPartial(string type)
+        public ActionResult ConfirmDeletion([Bind(Prefix = "id")] int pId)
         {
-            switch (type)
+            try
             {
-                case "SliderQuestion":
-                    return PartialView("_SliderPartial", new SliderQuestionViewModel());
-                case "StarsQuestion":
-                    return PartialView("_StarsPartial", new StarsQuestionViewModel());
-                case "SmileyFacesQuestion":
-                    return PartialView("_SmileyPartial", new SmileyQuestionViewModel());
-                default:
-                    return Content(""); // empty
+                Result<Question> tQuestion = mService.GetQuestion(pId);
+                if (!tQuestion.Success)
+                {
+                    return View(viewName: ERROR_VIEW, model: tQuestion.Error.ToString());
+                }
+
+                return View(model: tQuestion.Data);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Unexpected error occurred while fetching question with ID {pId} in ConfirmDeletion action.");
+                return View(viewName: ERROR_VIEW, model: UI_ERROR_MESSAGE);
+            }
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public ActionResult Delete([Bind(Prefix = "id")] int pId)
+        {
+            try
+            {
+                Result<Question> tQuestion = mService.GetQuestion(pId);
+                if (!tQuestion.Success)
+                {
+                    return View(viewName: ERROR_VIEW, model: tQuestion.Error.ToString());
+                }
+
+                var tResult = mService.DeleteQuestion(pId);
+                if (!tResult.Success)
+                {
+                    return View(ERROR_VIEW, tResult.Error.ToString());
+                }
+
+                return RedirectToAction(INDEX_ACTION, controllerName: HOME_CONTROLLER);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Unexpected error occurred while deleting question with ID {pId} in Delete action.");
+                return View(viewName: ERROR_VIEW, model: UI_ERROR_MESSAGE);
+            }
+        }
+
+
+        public ActionResult Edit([Bind(Prefix = "id")] int pId)
+        {
+            try
+            {
+                var tResult = mService.GetQuestion(pId);
+
+                if (!tResult.Success)
+                    return View(ERROR_VIEW, tResult.Error.ToString());
+
+                var tQuestion = tResult.Data;
+
+                var tViewModel = new QuestionFormViewModel
+                {
+                    Id = tQuestion.Id,
+                    Text = tQuestion.Text,
+                    Order = tQuestion.Order,
+                    QuestionType = tQuestion.TypeQuestion,
+                    RawData = QuestionHelper.SerializeToRawData(tQuestion) 
+                };
+
+                return View(ADD_VIEW, tViewModel); 
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Error editing question {pId}");
+                return View(ERROR_VIEW, UI_ERROR_MESSAGE);
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Edit(QuestionFormViewModel pQuestion)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return View(ADD_VIEW, pQuestion);
+
+                var tViewModel = QuestionHelper.Deserialize(pQuestion);
+
+                bool isValid = QuestionHelper.Validate(tViewModel, out var results);
+
+                if (!isValid)
+                {
+                    foreach (var r in results)
+                        ModelState.AddModelError("", r.ErrorMessage);
+
+                    return View(ADD_VIEW, pQuestion);
+                }
+
+                var tDto = tViewModel.MapToEditDto();
+
+                mService.EditQuestion(pQuestion.Id, tDto);
+
+                return RedirectToAction(INDEX_ACTION, HOME_CONTROLLER);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Unexpected error occurred while editing question with ID {pQuestion?.Id }.");
+                return View(ERROR_VIEW, UI_ERROR_MESSAGE);
+            }
+        }
+
+
+        public ActionResult GetPartial([Bind(Prefix = "type")] string pType)
+        {
+            try
+            {
+                switch (pType)
+                {
+                    case SLIDER_QUESTION:
+                        return PartialView(SLIDER_PARTIAL, new SliderQuestionViewModel());
+                    case STARS_QUESTION:
+                        return PartialView(STARS_PARTIAL, new StarsQuestionViewModel());
+                    case SMILEY_QUESTION:
+                        return PartialView(SMILEY_PARTIAL, new SmileyQuestionViewModel());
+                    default:
+                        return Content(""); 
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Unexpected error occurred while fetching partial view .");
+                return Content(""); 
             }
         }
     }
