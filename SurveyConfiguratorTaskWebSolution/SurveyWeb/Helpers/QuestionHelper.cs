@@ -1,14 +1,13 @@
-﻿using SurveyConfiguratorTask.Models;
+﻿using Microsoft.AspNet.SignalR;
+using Newtonsoft.Json;
+using SurveyConfiguratorTask.Models;
 using SurveyConfiguratorTaskWeb.Models;
+using SurveyWeb.Hubs;
+using SurveyWeb.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using SurveyWeb.Models;
 using System.ComponentModel.DataAnnotations;
-using System.Web.ModelBinding;
+
 
 namespace Helper
 {
@@ -78,7 +77,11 @@ namespace Helper
             pValidationResults = validationResults;
             return isValid;
         }
+        public static void NotifyQuestionsUpdated()
+        {
+            var context = GlobalHost.ConnectionManager.GetHubContext<QuestionHub>();
+            context.Clients.All.refreshQuestions();
+        }
 
-        
     }
 }

@@ -92,6 +92,7 @@ namespace SurveyWeb.Controllers
 
 
                 mService.AddQuestion(pQuestion.QuestionType, tDto);
+                QuestionHelper.NotifyQuestionsUpdated();
 
                 return RedirectToAction(INDEX_ACTION, controllerName: HOME_CONTROLLER);
             }
@@ -139,6 +140,8 @@ namespace SurveyWeb.Controllers
                 {
                     return View(ERROR_VIEW, tResult.Error.ToString());
                 }
+                QuestionHelper.NotifyQuestionsUpdated();
+
 
                 return RedirectToAction(INDEX_ACTION, controllerName: HOME_CONTROLLER);
             }
@@ -180,6 +183,8 @@ namespace SurveyWeb.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public ActionResult Edit(QuestionFormViewModel pQuestion)
         {
             try
@@ -201,7 +206,12 @@ namespace SurveyWeb.Controllers
 
                 var tDto = tViewModel.MapToEditDto();
 
-                mService.EditQuestion(pQuestion.Id, tDto);
+                var tResult = mService.EditQuestion(pQuestion.Id, tDto);
+                if (!tResult.Success)
+                {
+                    return View(ERROR_VIEW, tResult.Error.ToString());
+                }
+                QuestionHelper.NotifyQuestionsUpdated();
 
                 return RedirectToAction(INDEX_ACTION, HOME_CONTROLLER);
             }
@@ -234,6 +244,12 @@ namespace SurveyWeb.Controllers
                 Log.Error(ex, $"Unexpected error occurred while fetching partial view .");
                 return Content(""); 
             }
+        }
+
+        public ActionResult GetQuestionsPartial()
+        {
+            Result<List<Question>> tQuestions = mService.QuestionsLoad(); 
+            return PartialView("_QuestionsList", tQuestions );
         }
     }
 }

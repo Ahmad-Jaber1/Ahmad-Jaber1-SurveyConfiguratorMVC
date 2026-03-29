@@ -161,3 +161,16 @@ D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorT
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Autofac.xml
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Autofac.Integration.Mvc.xml
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.Owin.dll
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.Owin.Security.dll
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Owin.dll
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.Owin.xml
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWebSolution\SurveyWeb\bin\Microsoft.Owin.Security.xml

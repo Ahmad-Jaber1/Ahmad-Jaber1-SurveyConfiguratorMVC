@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskwebsolution\\surveyweb\\views\\question\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{139FADE6-5A48-4584-8CEB-80EF88204235}|SurveyWeb\\SurveyWeb.csproj|solutionrelative:surveyweb\\views\\question\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.config",
-              "RelativeDocumentMoniker": "SurveyWeb\\Web.config",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Web.config",
-              "RelativeToolTip": "SurveyWeb\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-25T11:36:16.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Views\\Question\\Add.cshtml",
-              "RelativeDocumentMoniker": "SurveyWeb\\Views\\Question\\Add.cshtml",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Views\\Question\\Add.cshtml",
-              "RelativeToolTip": "SurveyWeb\\Views\\Question\\Add.cshtml",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAI0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-25T10:07:20.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuestionController.cs",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Controllers\\QuestionController.cs",
-              "RelativeDocumentMoniker": "SurveyWeb\\Controllers\\QuestionController.cs",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWebSolution\\SurveyWeb\\Controllers\\QuestionController.cs",
-              "RelativeToolTip": "SurveyWeb\\Controllers\\QuestionController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCwAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T09:48:50.137Z",
-              "EditorCaption": ""
             }
           ]
         }
